@@ -136,7 +136,7 @@ function tourCardHTML(tour, opts = {}) {
         <div class="tour-card__meta">${meta}</div>
         <div class="tour-card__actions">
           <span class="tour-card__link">View details</span>
-          <button class="btn btn--gold btn--sm" data-book="${tour.slug}">Book now</button>
+          <button class="btn btn--gold " data-book="${tour.slug}">Book now</button>
         </div>
       </div>
     </div>`;
@@ -237,7 +237,7 @@ function renderActivities() {
         <div class="activity-card__title">${a.title}</div>
         <div class="activity-card__footer">
           <div class="activity-card__price">From <strong>$${a.price}</strong> pp</div>
-          <button class="btn btn--gold btn--sm" data-book-activity="${a.slug}">Book now</button>
+          <button class="btn btn--gold " data-book-activity="${a.slug}">Book now</button>
         </div>
       </div>
     </div>`).join('');
